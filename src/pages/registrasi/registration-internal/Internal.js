@@ -7,6 +7,12 @@ import { Link } from "react-router-dom";
 import "../registrasi.css";
 
 function Internal() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <main>
       <section className=" registrasi internal-registration">
@@ -19,7 +25,7 @@ function Internal() {
                   <Card.Img variant="top" src={item.img} />
                   <Card.Body className="justify-content-center align-items-center d-flex flex-column">
                     <Card.Title className="title text-center">{item.title}</Card.Title>
-                    <Link to={item.path} className="button text-center">{`Daftar ${item.title}`}</Link>
+                    <Link to={item.path} className="button text-center" onClick={scrollToTop}>{`Daftar ${item.title}`}</Link>
                   </Card.Body>
                 </Card>
               </Col>

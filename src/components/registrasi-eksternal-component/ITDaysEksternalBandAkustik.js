@@ -24,7 +24,7 @@ function Pendaftaran() {
                         <CountDownTimer time="Oct 16, 2022 00:00:00" />
                       </div>
                       <div className="button-daftar mt-5 mb-5">
-                        <a href={item.path} target="_blank" rel="noopener noreferrer" className="btn-daftar">
+                        <a href={item.path} target="_blank" rel="noopener noreferrer" className="button btn-daftar">
                           Daftar
                         </a>
                       </div>
@@ -76,6 +76,14 @@ function Pendaftaran() {
                           </li>
                         ))}
                       </ul>
+                    </div>
+                  </Col>
+                  <Col className="contact-person p-5">
+                    <div className="box-contact-person">
+                      <a href={item.contactPerson} className="link-contact-person">
+                        089683237446
+                      </a>
+                      <span>{item.contactName}</span>
                     </div>
                   </Col>
                 </Row>

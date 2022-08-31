@@ -34,6 +34,12 @@ function NavigationBar() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <header className={`navbar navbar-expand-lg fixed-top ${navbarShow ? "active" : ""}`} id="navbar">
       <nav className="container container-lg px-md-5 px-3">
@@ -47,18 +53,22 @@ function NavigationBar() {
 
         <Offcanvas show={show} onHide={handleClose} responsive="lg" placement="bottom" className="offcanvas">
           <Offcanvas.Body className="offcanvas-body ms-auto d-flex flex-column flex-lg-row">
-            <NavLink className="nav-link" to="/" onClick={handleClose}>
+            <NavLink className="nav-link" to="/" onClick={(handleClose, scrollToTop)}>
               Home
             </NavLink>
-            <NavLink className="nav-link" to="/about" onClick={handleClose}>
+            <NavLink className="nav-link" to="/about" onClick={(handleClose, scrollToTop)}>
               About
             </NavLink>
-            <NavLink className="nav-link" to="/main-activity" onClick={handleClose}>
+            <NavLink className="nav-link" to="/main-activity" onClick={(handleClose, scrollToTop)}>
               Main Activity
             </NavLink>
             <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown" menuVariant="transparent">
-              <NavDropdown.Item href="/registrasi/internal">Internal</NavDropdown.Item>
-              <NavDropdown.Item href="/registrasi/eksternal">Eksternal</NavDropdown.Item>
+              <NavDropdown.Item href="/registrasi/internal" onClick={scrollToTop}>
+                Internal
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/registrasi/eksternal" onClick={scrollToTop}>
+                Eksternal
+              </NavDropdown.Item>
             </NavDropdown>
           </Offcanvas.Body>
         </Offcanvas>

@@ -39,7 +39,7 @@ function Pendaftaran() {
                       <CountDownTimer time="Sep 20, 2022 22:23:00" />
                     </div>
                     <div className="button-daftar mt-5 mb-5">
-                      <a href={item.path} target="_blank" rel="noopener noreferrer" className="btn-daftar">
+                      <a href={item.path} target="_blank" rel="noopener noreferrer" className="button btn-daftar">
                         Daftar
                       </a>
                     </div>

@@ -1,6 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.css";
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <footer className="footer" id="footer">
       <div className="container-fluid bg-dark">
@@ -42,29 +49,29 @@ function Footer() {
             <h2 className="footer-title text-md-start ps-md-3">Quick Links</h2>
             <ul className="list-group">
               <li className="list-group-item text-start">
-                <a href="/main-activity/" className="band-akustik">
+                <Link to="/ITDaysBandAkustik" className="band-akustik" onClick={scrollToTop}>
                   Band akustik
-                </a>
+                </Link>
               </li>
               <li className="list-group-item text-start">
-                <a href="/main-activity/" className="short-movie">
+                <Link to="/ITDaysShortMovie" className="short-movie" onClick={scrollToTop}>
                   Short Movie
-                </a>
+                </Link>
               </li>
               <li className="list-group-item text-start">
-                <a href="/main-activity/" className="valorant">
+                <Link to="/ITDaysValorant" className="valorant" onClick={scrollToTop}>
                   Valorant
-                </a>
+                </Link>
               </li>
               <li className="list-group-item text-start">
-                <a href="/main-activity/" className="mobile-legend">
+                <Link to="/ITDaysMobileLegend" className="mobile-legend" onClick={scrollToTop}>
                   Mobile Legend
-                </a>
+                </Link>
               </li>
               <li className="list-group-item text-start">
-                <a href="/main-activity/" className="futsal">
+                <Link to="/ITDaysFutsal" className="futsal" onClick={scrollToTop}>
                   Futsal
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

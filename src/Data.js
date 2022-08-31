@@ -432,6 +432,8 @@ export const ITDaysEksternalBandAkustik = [
       "Dasar penilaian meliputi : ",
     ],
     penilaianMeliputi: ["Performance (penguasaan lagu / musik, interaksi, kostum)", "Skills (kreatifitas dan improvisasi)", "Harmonisasi (musikalitas, arransemen, kekompakan)."],
+    contactPerson: "https://api.whatsapp.com/send?phone=6289683237446",
+    contactName: "Shania",
   },
 ];
 
@@ -456,6 +458,8 @@ export const ITDaysEksternalShortMovie = [
     ],
 
     penilaian: ["Kesesuaian dengan tema", "Teknik pengambilan gambar", "Tata musik dan suara", "Penyampaian pesan cerita film"],
+    contactPerson: "https://api.whatsapp.com/send?phone=6282273500223",
+    contactName: "Wenda",
   },
 ];
 
@@ -496,6 +500,8 @@ export const ITDaysEksternalValorant = [
       "Pertandingan babak semifinal hinffa final akan di host dengan ketentuan mode : Standard, Tournament Mode On, Cheats OFF dan Overtime",
       "Overtime akan diadakan maksimal 4 kali (skor 20-20) setelah itu tim yang meraih skor 21 terlebih dahulu akan menang",
     ],
+    contactPerson: "https://api.whatsapp.com/send?phone=6283101121835",
+    contactName: "Oris",
   },
 ];
 
@@ -533,6 +539,8 @@ export const ITDaysEksternalMobileLegend = [
       "Game Mode yang digunakan adalah Custom Lobby Draft Pick dengan Sistem Ban 3 hero.",
       "Segala Bentuk Taunting dalam In Game diperbolehkan asal tidak dilakukan secara berlebihan hingga Out Game.",
     ],
+    contactPerson: "https://api.whatsapp.com/send?phone=6283101121835",
+    contactName: "Oris",
   },
 ];
 
