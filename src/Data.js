@@ -324,6 +324,8 @@ export const ITDaysInternalQuery100 = [
       "Wajib hadir pada lokasi yang telah ditentukan 15 menit sebelum kegiatan dimulai",
       "NB : (seluruh panitia ITdays tidak diizinkan mengikuti perlombaan Query 100)",
     ],
+    contactPerson: "https://api.whatsapp.com/send?phone=6281236420259",
+    contactName: "Jeffan",
   },
 ];
 
@@ -339,6 +341,8 @@ export const ITDaysInternalFunGames = [
       "Untuk seluruh panitia IT Days diwajibkan untuk ikut",
       "Peserta diwajibkan menggunakan pakaian yang sopan dan berwarna gelap",
     ],
+    contactPerson: "https://api.whatsapp.com/send?phone=6281236420259",
+    contactName: "Jeffan",
   },
 ];
 
@@ -365,6 +369,8 @@ export const ITDaysInternalFutsal = [
       "Keputusan wasit dan panitia bersifat mutlak.",
       "Jika hasil pertandingan seri, maka akan dilakukan adu penalti.",
     ],
+    contactPerson: "https://api.whatsapp.com/send?phone=6283101121835",
+    contactName: "Oris",
   },
 ];
 
