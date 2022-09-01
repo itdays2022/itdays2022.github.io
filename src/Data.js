@@ -40,7 +40,8 @@ import mlbb from "./images/logo ML fix.webp";
 import futsal from "./images/logo futsal fix.jpg";
 import shortMovie from "./images/logo short movie fix.jpeg";
 import bandAkustik from "./images/logo band akustik fix.jpg";
-
+import query100 from "./images/query100 fix.png";
+import fungames from "./images/fun games fix.jpg";
 export const Images = [
   {
     id: 1,
@@ -291,13 +292,13 @@ export const activityEksternal = [
 export const CompetitionInternal = [
   {
     id: 1,
-    img: imgTalkShow2,
+    img: query100,
     title: "Query 100",
     path: "/ITDaysQuery100",
   },
   {
     id: 2,
-    img: imgBlindDate1,
+    img: fungames,
     title: "Fun Games",
     path: "/ITDaysFunGames",
   },
@@ -314,7 +315,7 @@ export const ITDaysInternalQuery100 = [
     id: 1,
     title: "Query100",
     path: "https://docs.google.com/forms/d/e/1FAIpQLScmFmg8ezRMKJTHKqq5lw8nhpqOlaBByBr1YXG_UgbZIhM2Bg/viewform",
-    img: imgTalkShow3,
+    img: query100,
     syarat: [
       "Khusus untuk mahasiswa Informatika USD",
       "Peserta lomba berasal dari angkatan 19, 20, 21, dan 22",
