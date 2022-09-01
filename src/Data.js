@@ -233,7 +233,7 @@ export const activityInternal = [
   },
   {
     id: 3,
-    img: imgTalkShow4,
+    img: query100,
     title: "Query 100",
     description:
       "Query 100 merupakan satu dari rangkaian kegiatan yang bergerak dalam bidan kuis, yang dimana kuis tersebut akan mempertandingkan 2 kelompok untuk saling merebut poin dan meraih kemenangan. Query sendiri diambil dari nama salah satu mata kuliah yang ada di prodi informatika dan 100 itu sendiri artinya seluruh kuis dilakukan survey kepada 100 orang untuk menentukan jawaban.",
