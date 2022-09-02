@@ -81,9 +81,9 @@ function Footer() {
             <ul className="list-group">
               {/* <!-- whatsapp --> */}
               <li className="list-group-item text-start">
-                <a href="https://api.whatsapp.com/send?phone=6282255224387" target="_blank" className="whatsapp" rel="noreferrer">
+                <a href="https://api.whatsapp.com/send?phone=6282223811626" target="_blank" className="whatsapp" rel="noreferrer">
                   <i className="bi bi-whatsapp"></i>
-                  <span>0822-5522-4387</span>
+                  <span> 0822-2381-1626</span>
                 </a>
               </li>
               {/* <!-- email --> */}

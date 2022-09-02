@@ -28,14 +28,6 @@ function Pendaftaran() {
                       </ul>
                     </div>
                   </Col>
-                  <Col className="contact-person p-5">
-                    <div className="box-contact-person">
-                      <a href={item.contactPerson} className="link-contact-person">
-                        089683237446
-                      </a>
-                      <span>{item.contactName}</span>
-                    </div>
-                  </Col>
                 </Row>
               </Col>
               <Col className="right-side">
