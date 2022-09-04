@@ -236,7 +236,7 @@ export const activityInternal = [
     img: query100,
     title: "Query 100",
     description:
-      "Query 100 merupakan satu dari rangkaian kegiatan yang bergerak dalam bidan kuis, yang dimana kuis tersebut akan mempertandingkan 2 kelompok untuk saling merebut poin dan meraih kemenangan. Query sendiri diambil dari nama salah satu mata kuliah yang ada di prodi informatika dan 100 itu sendiri artinya seluruh kuis dilakukan survey kepada 100 orang untuk menentukan jawaban.",
+      "Query 100 merupakan satu dari rangkaian kegiatan yang bergerak dalam bidang kuis, yang dimana kuis tersebut akan mempertandingkan 2 kelompok untuk saling merebut poin dan meraih kemenangan. Query sendiri diambil dari nama salah satu mata kuliah yang ada di prodi informatika dan 100 itu sendiri artinya seluruh kuis dilakukan survey kepada 100 orang untuk menentukan jawaban.",
     smallDesc: "Query 100 merupakan satu dari rangkaian kegiatan yang bergerak dalam bidan kuis, yang dimana kuis tersebut akan mempertandingkan 2 kelompok untuk...",
   },
   {
@@ -270,7 +270,7 @@ export const activityEksternal = [
     id: 2,
     img: shortMovie,
     title: "Short Movie",
-    description: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nauansa kompleks serta tidak dianggap sebagai film utama/panjang. Kegiatan IT DAYS yang satu ini bisa diikuti oleh masyarakat umum.",
+    description: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nuansa kompleks serta tidak dianggap sebagai film utama/panjang. Kegiatan IT DAYS yang satu ini bisa diikuti oleh SMA/SMA sederajat",
     smallDesc: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nauansa kompleks serta tidak dianggap sebagai film utama/panjang...",
   },
   {
@@ -479,7 +479,7 @@ export const ITDaysEksternalValorant = [
     syarat: [
       "Peserta Lomba E-sports Valorant bersifat umum.",
       "Wajib mengisi formulir pendaftaran yang telah disediakan oleh panitia.",
-      "Membayar uang pendaftaran sebesar Rp 75.000",
+      "Membayar uang pendaftaran sebesar Rp 50.000",
       "Peserta wajib beranggotakan 5 orang pemain utama dan 1 pemain cadangan.",
       "Peserta lomba hanya boleh masuk dalam satu tim.",
       "Setiap tim wajib memiliki 1 kapten tim untuk masuk ke dalam grup WA yang dibuat oleh panitia karena segala informasi perlombaan akan diumumkan melalui grup tersebut.",
@@ -521,7 +521,7 @@ export const ITDaysEksternalMobileLegend = [
     syarat: [
       "Peserta lomba E-sports ML bersifat umum.",
       "Wajib mengisi formulir pendaftaran yang telah disediakan oleh panitia.",
-      "Membayar uang pendaftaran sebesar Rp 75.000",
+      "Membayar uang pendaftaran sebesar Rp 50.000",
       "Peserta wajib beranggotakan 5 orang pemain utama dan 1 pemain cadangan.",
       "Peserta lomba hanya boleh masuk dalam satu tim.",
       "Setiap tim wajib memiliki 1 kapten tim untuk masuk ke dalam grup WA yang dibuat oleh panitia karena segala informasi perlombaan akan diumumkan melalui grup tersebut.",
