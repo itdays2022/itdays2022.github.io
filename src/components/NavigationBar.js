@@ -62,7 +62,7 @@ function NavigationBar() {
             <NavLink className="nav-link" to="/main-activity" onClick={(handleClose, scrollToTop)}>
               Main Activity
             </NavLink>
-            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown" menuVariant="dark">
+            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown" menuVariant="light">
               <NavDropdown.Item>
                 <NavLink className="nav-link text-dark" to="/registrasi/internal" onClick={(handleClose, scrollToTop)}>
                   Internal

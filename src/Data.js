@@ -272,7 +272,7 @@ export const activityEksternal = [
     img: shortMovie,
     title: "Short Movie",
     description: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nuansa kompleks serta tidak dianggap sebagai film utama/panjang. Kegiatan IT DAYS yang satu ini bisa diikuti oleh SMA/SMA sederajat.",
-    smallDesc: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nauansa kompleks serta tidak dianggap sebagai film utama/panjang...",
+    smallDesc: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki bernuansa kompleks serta tidak dianggap sebagai film utama/panjang...",
   },
   {
     id: 3,
