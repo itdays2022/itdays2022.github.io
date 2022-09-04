@@ -228,7 +228,7 @@ export const activityInternal = [
     img: imgWebinar3,
     title: "Webinar",
     description:
-      "Webinar merupakan seminar yang dilakukan secara virtual atau online melalui media daring seperti zoom, g-meet dan media online lainnya. Webina ini akan dihadiri oleh pembicara profesional dan berpengalaman tentunya untuk menyampaikan segala materi dan topik yang sudah ditentukan oleh pihak panitia yang tentunya sesuai dengan pengalaman pembicara tersebut.",
+      "Webinar merupakan seminar yang dilakukan secara virtual atau online melalui media daring seperti zoom, G-meet dan media online lainnya. Webinar ini akan dihadiri oleh pembicara profesional dan berpengalaman tentunya untuk menyampaikan segala materi dan topik yang sudah ditentukan oleh pihak panitia yang tentunya sesuai dengan pengalaman pembicara tersebut.",
     smallDesc: "Webinar merupakan seminar yang dilakukan secara virtual atau online melalui media daring seperti zoom, g-meet dan media online lainnya. Webina ini akan...",
   },
   {
@@ -263,8 +263,8 @@ export const activityEksternal = [
     img: bandAkustik,
     title: "Band Akustik",
     description:
-      "Band Acoustik merupakan kegiatan IT DAYS yang bergerak dibidang music, dimana sebuah kelompok atau yang disebut band akan bertanding untuk menampilkan performa terbaik mereka dalam menampilkan sebuah lagu atau mengcover sebuah lagu dengan karakteristik band itu sendiri.",
-    smallDesc: "Band Acoustik merupakan kegiatan IT DAYS yang bergerak dibidang music, dimana sebuah kelompok atau yang disebut band akan bertanding untuk...",
+      "Band Akustik merupakan kegiatan IT DAYS yang bergerak dibidang musik, dimana sebuah kelompok atau yang disebut band akan bertanding untuk menampilkan performa terbaik mereka dalam menampilkan sebuah lagu atau mengcover sebuah lagu dengan karakteristik band itu sendiri.",
+    smallDesc: "Band Akustik merupakan kegiatan IT DAYS yang bergerak dibidang musik, dimana sebuah kelompok atau yang disebut band akan bertanding untuk...",
   },
   {
     id: 2,
@@ -337,7 +337,7 @@ export const ITDaysInternalFunGames = [
     path: "https://docs.google.com/forms/d/e/1FAIpQLSe0-5qOehYUb--rEuqe9P7LRgMR3Aso636OAZ0k1u4_xLQLWg/viewform",
     img: imgTalkShow3,
     syarat: [
-      "Peserta harus berasal dari program studi informatika (angkatan 20, 21, 22) dengan mengisi G-Form yang akan diberikan",
+      "Peserta harus berasal dari program studi informatika (angkatan 19, 20, 21, 22) dengan mengisi G-Form yang akan diberikan",
       "Tiap angkatan WAJIB memiliki perwakilan minimal 3 mahasiswa",
       "Untuk seluruh panitia IT Days diwajibkan untuk ikut",
       "Peserta diwajibkan menggunakan pakaian yang sopan dan berwarna gelap",
