@@ -414,7 +414,7 @@ export const ITDaysEksternalBandAkustik = [
     img: bandAkustik,
     syarat: [
       "Peserta merupakan masyarakat umum",
-      "Peserta yang mengikuti lomba telah mengisi formulir yang sudah disediakan",
+      "Peserta yang mengikuti lomba telah mengisi formulir yang sudah disediakan dan membayar uang pendaftaran sebesar 10k/group",
       "Grup band minimal anggota 2 orang dan maksimal anggota 5 orang",
       "Apabila pada saat technical meeting, peserta yang akan mengikuti lomba belum mengumpulkan biodata atau bukti KTM maka peserta tidak bisa mengikuti perlombaan atau dinyatakan telah mengundurkan diri",
       "Peserta diminta untuk mengirimkan video sebelum dari waktu yang ditentukan",
