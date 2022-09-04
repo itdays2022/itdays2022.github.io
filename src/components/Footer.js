@@ -50,7 +50,7 @@ function Footer() {
             <ul className="list-group">
               <li className="list-group-item text-start">
                 <Link to="/ITDaysBandAkustik" className="band-akustik" onClick={scrollToTop}>
-                  Band akustik
+                  Band Akustik
                 </Link>
               </li>
               <li className="list-group-item text-start">
