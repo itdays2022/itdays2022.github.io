@@ -17,7 +17,7 @@ import FunGames from "./components/registrasi-internal-component/ITDaysInternalF
 import "./App.css";
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
