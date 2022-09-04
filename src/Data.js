@@ -42,6 +42,7 @@ import shortMovie from "./images/logo short movie fix.jpeg";
 import bandAkustik from "./images/logo band akustik fix.jpg";
 import query100 from "./images/query100 fix.png";
 import fungames from "./images/fun games fix.jpg";
+import fungamesmain from "./images/MainFunGames.jpg";
 export const Images = [
   {
     id: 1,
@@ -229,7 +230,7 @@ export const activityInternal = [
     title: "Webinar",
     description:
       "Webinar merupakan seminar yang dilakukan secara virtual atau online melalui media daring seperti zoom, G-meet dan media online lainnya. Webinar ini akan dihadiri oleh pembicara profesional dan berpengalaman tentunya untuk menyampaikan segala materi dan topik yang sudah ditentukan oleh pihak panitia yang tentunya sesuai dengan pengalaman pembicara tersebut.",
-    smallDesc: "Webinar merupakan seminar yang dilakukan secara virtual atau online melalui media daring seperti zoom, g-meet dan media online lainnya. Webina ini akan...",
+    smallDesc: "Webinar merupakan seminar yang dilakukan secara virtual atau online melalui media daring seperti zoom, g-meet dan media online lainnya. Webinar ini akan...",
   },
   {
     id: 3,
@@ -241,7 +242,7 @@ export const activityInternal = [
   },
   {
     id: 4,
-    img: imgBlindDate8,
+    img: fungamesmain,
     title: "Fun Games",
     description:
       "Fun Games atau dapat diartikan sebagai sebuah games atau permainan seru atau fun dan menjadi satu diantara rangkaian kegiatan yang akan berlangsung. Fun Games akan berisikan games-games seru yang akan diikuti oleh seluruh peserta dengan cara berkelompok atau saling bekerja sama dalam menyelesaikan games.",
@@ -270,7 +271,7 @@ export const activityEksternal = [
     id: 2,
     img: shortMovie,
     title: "Short Movie",
-    description: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nuansa kompleks serta tidak dianggap sebagai film utama/panjang. Kegiatan IT DAYS yang satu ini bisa diikuti oleh SMA/SMA sederajat",
+    description: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nuansa kompleks serta tidak dianggap sebagai film utama/panjang. Kegiatan IT DAYS yang satu ini bisa diikuti oleh SMA/SMA sederajat.",
     smallDesc: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nauansa kompleks serta tidak dianggap sebagai film utama/panjang...",
   },
   {
@@ -335,7 +336,7 @@ export const ITDaysInternalFunGames = [
     id: 2,
     title: "Fun Games",
     path: "https://docs.google.com/forms/d/e/1FAIpQLSe0-5qOehYUb--rEuqe9P7LRgMR3Aso636OAZ0k1u4_xLQLWg/viewform",
-    img: imgTalkShow3,
+    img: fungames,
     syarat: [
       "Peserta harus berasal dari program studi informatika (angkatan 19, 20, 21, 22) dengan mengisi G-Form yang akan diberikan",
       "Tiap angkatan WAJIB memiliki perwakilan minimal 3 mahasiswa",
@@ -365,7 +366,7 @@ export const ITDaysInternalFutsal = [
       "Waktu pertandingan 2 x 10 menit, dengan waktu istirahat 5 menit. ",
       "Setiap tim berhak meminta waktu timeout 1 kali selama 1 menit setiap babak.",
       "Setiap pemain wajib berperilaku sopan dan saling menghargai, apabila melanggar akan diberi sanksi tegas.",
-      "Semua peserta wajib menggunakan sepatu futsal dan memakai perlengkapan permainan ldengan engkap, seperti warna jersey yang sama setiap anggota kecuali kiper, dan perlengkapan lain.",
+      "Semua peserta wajib menggunakan sepatu futsal dan memakai perlengkapan permainan dengan lengkap, seperti warna jersey yang sama setiap anggota kecuali kiper, dan perlengkapan lain.",
       "Setiap pemain hanya boleh bermain di 1 tim saja.",
       "Keputusan wasit dan panitia bersifat mutlak.",
       "Jika hasil pertandingan seri, maka akan dilakukan adu penalti.",
