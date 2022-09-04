@@ -22,7 +22,7 @@ function Filosofi() {
               Logo IT DAYS terdiri dari burung enggang, electrical circuit dan nanotech. Ketiga unsur tersebut di padukan dalam sebuah logo yang melambangkan sebagai ikatan yang kokoh. <br />
               <br />
               &#9830; Burung Enggang: <br />
-              Burung Tingang atau Burung enggang melambangkan keseimbangan, yang dimana kita sebagai generasi muda diharapkan memiliki pengetahuan yang mampu menyeimbangi serta beradaptasi terhadap kemajuan teknologi. <br />
+              Burung Enggang atau Burung enggang melambangkan keseimbangan, yang dimana kita sebagai generasi muda diharapkan memiliki pengetahuan yang mampu menyeimbangi serta beradaptasi terhadap kemajuan teknologi. <br />
               <br />
               &#9830; Electric Circuit: <br />
               Electric circuit merupakan jalur untuk mentransmisikan arus menjadi energi, maka dengan penempatannya pada area kepala dapat menginspirasi kita agar menciptakan dan menyebarkan energi positif kepada sesama. <br />
