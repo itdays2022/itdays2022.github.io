@@ -41,7 +41,7 @@ import futsal from "./images/logo futsal fix.jpg";
 import shortMovie from "./images/logo short movie fix.jpeg";
 import bandAkustik from "./images/logo band akustik fix.jpg";
 import query100 from "./images/query100 fix.png";
-import fungames from "./images/fun games fix.jpg";
+
 import fungamesmain from "./images/MainFunGames.jpg";
 export const Images = [
   {
@@ -299,7 +299,7 @@ export const CompetitionInternal = [
   },
   {
     id: 2,
-    img: fungames,
+    img: fungamesmain,
     title: "Fun Games",
     path: "/ITDaysFunGames",
   },
@@ -336,7 +336,7 @@ export const ITDaysInternalFunGames = [
     id: 2,
     title: "Fun Games",
     path: "https://docs.google.com/forms/d/e/1FAIpQLSe0-5qOehYUb--rEuqe9P7LRgMR3Aso636OAZ0k1u4_xLQLWg/viewform",
-    img: fungames,
+    img: fungamesmain,
     syarat: [
       "Peserta harus berasal dari program studi informatika (angkatan 19, 20, 21, 22) dengan mengisi G-Form yang akan diberikan",
       "Tiap angkatan WAJIB memiliki perwakilan minimal 3 mahasiswa",
