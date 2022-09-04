@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavigationBar from "./components/NavigationBar";
 import Home from "./pages/home/Home";
@@ -17,24 +17,24 @@ import FunGames from "./components/registrasi-internal-component/ITDaysInternalF
 import "./App.css";
 function App() {
   return (
-    <>
+    <Router>
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="main-activity" element={<MainActivity />} />
-        <Route path="registrasi/internal" element={<Internal />} />
-        <Route path="registrasi/eksternal" element={<Eksternal />} />
-        <Route path="ITDaysBandAkustik" element={<BandAkustik />} />
-        <Route path="ITDaysShortMovie" element={<ShortMovie />} />
-        <Route path="ITDaysValorant" element={<Valorant />} />
-        <Route path="ITDaysMobileLegend" element={<MobileLegend />} />
-        <Route path="ITDaysFutsal" element={<Futsal />} />
-        <Route path="ITDaysQuery100" element={<Query100 />} />
-        <Route path="ITDaysFunGames" element={<FunGames />} />
+        <Route path="/about/" element={<About />} />
+        <Route path="/main-activity/" element={<MainActivity />} />
+        <Route path="/registrasi/internal" element={<Internal />} />
+        <Route path="/registrasi/eksternal" element={<Eksternal />} />
+        <Route path="/ITDaysBandAkustik" element={<BandAkustik />} />
+        <Route path="/ITDaysShortMovie" element={<ShortMovie />} />
+        <Route path="/ITDaysValorant" element={<Valorant />} />
+        <Route path="/ITDaysMobileLegend" element={<MobileLegend />} />
+        <Route path="/ITDaysFutsal" element={<Futsal />} />
+        <Route path="/ITDaysQuery100" element={<Query100 />} />
+        <Route path="/ITDaysFunGames" element={<FunGames />} />
       </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
