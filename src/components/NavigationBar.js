@@ -62,12 +62,16 @@ function NavigationBar() {
             <NavLink className="nav-link" to="/main-activity" onClick={(handleClose, scrollToTop)}>
               Main Activity
             </NavLink>
-            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown" menuVariant="transparent">
-              <NavDropdown.Item href="/registrasi/internal" onClick={scrollToTop}>
-                Internal
+            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown" menuVariant="dark">
+              <NavDropdown.Item>
+                <NavLink className="nav-link text-dark" to="/registrasi/internal" onClick={(handleClose, scrollToTop)}>
+                  Internal
+                </NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item href="/registrasi/eksternal" onClick={scrollToTop}>
-                Eksternal
+              <NavDropdown.Item>
+                <NavLink className="nav-link text-dark" to="/registrasi/eksternal" onClick={(handleClose, scrollToTop)}>
+                  Eksternal
+                </NavLink>
               </NavDropdown.Item>
             </NavDropdown>
           </Offcanvas.Body>
