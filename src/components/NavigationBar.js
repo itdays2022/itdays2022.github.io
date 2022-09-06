@@ -13,7 +13,7 @@ function NavigationBar() {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrollTop > lastScrollTop) {
-      setNavbarShow(false);
+      setNavbarShow(true);
     } else {
       setNavbarShow(true);
     }
@@ -31,7 +31,10 @@ function NavigationBar() {
 
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    setShow(false);
+    console.log(show);
+  };
   const handleShow = () => setShow(true);
 
   const scrollToTop = () => {
@@ -39,6 +42,11 @@ function NavigationBar() {
       top: 0,
       behavior: "smooth",
     });
+  };
+
+  const callBoth = () => {
+    handleClose();
+    scrollToTop();
   };
   return (
     <header className={`navbar navbar-expand-lg fixed-top ${navbarShow ? "active" : ""}`} id="navbar">
@@ -53,25 +61,21 @@ function NavigationBar() {
 
         <Offcanvas show={show} onHide={handleClose} responsive="lg" placement="bottom" className="offcanvas">
           <Offcanvas.Body className="offcanvas-body ms-auto d-flex flex-column flex-lg-row">
-            <NavLink className="nav-link" to="/" onClick={(handleClose, scrollToTop)}>
+            <NavLink className="nav-link" to="/" onClick={callBoth}>
               Home
             </NavLink>
-            <NavLink className="nav-link" to="/about" onClick={(handleClose, scrollToTop)}>
+            <NavLink className="nav-link" to="/about" onClick={callBoth}>
               About
             </NavLink>
-            <NavLink className="nav-link" to="/main-activity" onClick={(handleClose, scrollToTop)}>
+            <NavLink className="nav-link custom" to="/main-activity" onClick={callBoth}>
               Main Activity
             </NavLink>
-            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown" menuVariant="light">
-              <NavDropdown.Item>
-                <NavLink className="nav-link text-dark" to="/registrasi/internal" onClick={(handleClose, scrollToTop)}>
-                  Internal
-                </NavLink>
+            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown" menuVariant="transparent">
+              <NavDropdown.Item href="/registrasi/internal" onClick={callBoth}>
+                Internal
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <NavLink className="nav-link text-dark" to="/registrasi/eksternal" onClick={(handleClose, scrollToTop)}>
-                  Eksternal
-                </NavLink>
+              <NavDropdown.Item href="/registrasi/eksternal" onClick={callBoth}>
+                Eksternal
               </NavDropdown.Item>
             </NavDropdown>
           </Offcanvas.Body>
