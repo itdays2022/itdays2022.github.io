@@ -19,7 +19,7 @@
   color: rgb(174, 174, 174);
   text-decoration: none;
 }
-.footer .list-group-horizontal a {
+.footer .list-group-horizontal i {
   font-size: 2rem;
 }
 .footer a:hover {
