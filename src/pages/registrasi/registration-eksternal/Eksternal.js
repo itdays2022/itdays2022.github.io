@@ -18,7 +18,7 @@ function Eksternal() {
       <section className=" registrasi Eksternal-registration">
         <Container>
           <h1 className="title pb-5">Eksternal</h1>
-          <Row xs={1} md={3} className="g-4 justify-content-center">
+          <Row xs={1} md={2} lg={3} className="g-4 justify-content-center">
             {CompetitionEksternal.map((item) => (
               <Col key={item.id}>
                 <Card className="custom-card">

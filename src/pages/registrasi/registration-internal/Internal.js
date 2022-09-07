@@ -18,7 +18,7 @@ function Internal() {
       <section className=" registrasi internal-registration">
         <Container>
           <h1 className="title pb-5">Internal</h1>
-          <Row xs={1} md={3} className="g-5 justify-content-center">
+          <Row xs={1} md={2} lg={3} className="g-5 justify-content-center">
             {CompetitionInternal.map((item) => (
               <Col key={item.id}>
                 <Card className="custom-card">

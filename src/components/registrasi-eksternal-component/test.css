@@ -13,10 +13,7 @@
 }
 
 .ITDaysRegistrasi .title {
-  font-size: 2rem;
-}
-.ITDaysRegistrasi .description {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
 }
 
 .ITDaysRegistrasi .button-daftar {
@@ -102,6 +99,9 @@
 @media (min-width: 992px) {
   .ITDaysRegistrasi .description {
     font-size: 1.3rem;
+  }
+  .ITDaysRegistrasi .title {
+    font-size: 2rem;
   }
 }
 
