@@ -1,6 +1,7 @@
 .navbar {
   background: linear-gradient(to right, #0d112d, #181130, #241032);
   transition: 0.8s;
+  top: 0;
   /* transform: translateY(-68px); */
 }
 

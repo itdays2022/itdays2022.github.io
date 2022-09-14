@@ -13,7 +13,7 @@ function NavigationBar() {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrollTop > lastScrollTop) {
-      setNavbarShow(true);
+      setNavbarShow(false);
     } else {
       setNavbarShow(true);
     }
