@@ -14,6 +14,7 @@ import MobileLegend from "./components/registrasi-eksternal-component/ITDaysEkst
 import Futsal from "./components/registrasi-internal-component/ITDaysInternalFutsal";
 import Query100 from "./components/registrasi-internal-component/ITDaysInternalQuery100";
 import FunGames from "./components/registrasi-internal-component/ITDaysInternalFunGames";
+import Webinar from "./components/registrasi-internal-component/ITDaysInternalWebinar";
 import "./App.css";
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/ITDaysFutsal" element={<Futsal />} />
         <Route path="/ITDaysQuery100" element={<Query100 />} />
         <Route path="/ITDaysFunGames" element={<FunGames />} />
+        <Route path="/ITDaysWebinar" element={<Webinar />} />
       </Routes>
       <Footer />
     </Router>

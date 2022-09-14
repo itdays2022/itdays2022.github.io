@@ -309,6 +309,12 @@ export const CompetitionInternal = [
     title: "Futsal",
     path: "/ITDaysFutsal",
   },
+  {
+    id: 4,
+    img: imgWebinar3,
+    title: "Webinar",
+    path: "/ITDaysWebinar",
+  },
 ];
 
 export const ITDaysInternalQuery100 = [
@@ -348,6 +354,24 @@ export const ITDaysInternalFunGames = [
   },
 ];
 
+export const ITDaysInternalWebinar = [
+  {
+    id: 4,
+    title: "Webinar",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLScJKV3RsM0cbyAt8aJ1HB995BByJ21cY_kTvHQBzdpsly4_9g/viewform",
+    img: imgWebinar3,
+    syarat: [
+      "Peserta harus berasal dari program studi informatika dengan mengisi G-Form dan melampirkan KTM/SS SIA (Angkatan 2019, 2020, 2021)",
+      "Mahasiswa 2022 wajib mengikuti webinar",
+      "Peserta memasuki ruang zoom setidaknya 10 menit sebelum webinar dimulai",
+      "Peserta diwajibkan menggunakan background yang disediakan oleh panitia",
+      "Peserta diwajibkan untuk on camera selama webinar",
+      "Peserta diwajibkan menggunakan pakaian yangrapi dan sopan",
+    ],
+    contactPerson: "https://api.whatsapp.com/send?phone=6282273500223",
+    contactName: "Wenda",
+  },
+];
 export const ITDaysInternalFutsal = [
   {
     id: 5,
