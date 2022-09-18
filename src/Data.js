@@ -519,7 +519,6 @@ export const ITDaysEksternalValorant = [
       "Peserta tidak diperbolehkan berbagi/joki akun.",
       "Peserta wajib masuk server discord yang telah disediakan.",
       "Seluruh komunikasi antara peserta dan panitia dilakukan dalam discord.",
-      "Seluruh peserta wajib on mic dan on cam saat pertandingan berlangsung.",
       "Segala bentuk taunting dalam In Game diperbolehkan asal tidak dilakukan secara berlebihan hingga Out Game",
       "Dilarang menggunakan program eksternal untuk mencurangi pertandingan (Aim Hack, Wall Hack, dan lain - lain), dimohon kejujuran tiap peserta",
       "Setiap tim akan mendapatkan hak untuk Request Tactical Timeout sebanyak 2 x 2 menit",
