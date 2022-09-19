@@ -383,6 +383,7 @@ export const ITDaysInternalFutsal = [
       "Mengisi formulir pendaftaran yang sudah disediakan oleh panitia IT Days dan melengkapi segala persyaratan yang tertera.",
       "Satu tim maksimal 10 orang pemain ditambah 1 official (wajib dan bukan pemain).",
       "Setiap tim wajib melunasi uang pendaftaran sebesar 250.000 sesuai dengan waktu yang telah ditentukan.",
+      "Setiap tim wajib DP mnimal 50% dari biaya pendaftaran, dan akan dibayar paling lambat pada saat Technical Meeting dimulai.",
       "Tim yang akan bertanding wajib sudah berada di lokasi minimal 30 menit sebelum bertanding, dan toleransi keterlambatan selama 10 menit, jika tim tidak hadir, maka akan dianggap gugur dan tim lawan otomatis menang.",
     ],
 
@@ -508,6 +509,7 @@ export const ITDaysEksternalValorant = [
       "Peserta wajib beranggotakan 5 orang pemain utama dan 1 pemain cadangan.",
       "Peserta lomba hanya boleh masuk dalam satu tim.",
       "Setiap tim wajib memiliki 1 kapten tim untuk masuk ke dalam grup WA yang dibuat oleh panitia karena segala informasi perlombaan akan diumumkan melalui grup tersebut.",
+
       "Nama nickname pemain dan tim tidak boleh mengandung unsur SARA, jika ada tim yang menggunakannya, maka tim tersebut akan didiskualifikasi.",
       "Peserta wajib memiliki device yang memadai, serta jaringan data seluler pribadi, panitia tidak bertanggung jawab atas device dan jaringan peserta.",
       "Keputusan dari juri dan panitia bersifat mutlak dan tidak dapat diganggu gugat.  ",
@@ -519,6 +521,7 @@ export const ITDaysEksternalValorant = [
       "Peserta tidak diperbolehkan berbagi/joki akun.",
       "Peserta wajib masuk server discord yang telah disediakan.",
       "Seluruh komunikasi antara peserta dan panitia dilakukan dalam discord.",
+      "Setiap peserta WAJIB on mic di discord saat pertandingan berlangsung.",
       "Segala bentuk taunting dalam In Game diperbolehkan asal tidak dilakukan secara berlebihan hingga Out Game",
       "Dilarang menggunakan program eksternal untuk mencurangi pertandingan (Aim Hack, Wall Hack, dan lain - lain), dimohon kejujuran tiap peserta",
       "Setiap tim akan mendapatkan hak untuk Request Tactical Timeout sebanyak 2 x 2 menit",
@@ -557,6 +560,7 @@ export const ITDaysEksternalMobileLegend = [
     peraturan: [
       "Setiap peserta wajib memiliki device dengan akun Mobile Legends milik sendiri bukan milik orang lain",
       "Setiap peserta hanya boleh masuk dalam 1 tim.",
+      "Setiap peserta WAJIB on mic di discord saat pertandingan berlangsung.",
       "Setelan lobby : lobby akan dibuat oleh panitia, lalu panitia akan mengundang Kapten Tim dan berikutnya Kapten Tim akan mengundang anggota timnya.",
     ],
 
