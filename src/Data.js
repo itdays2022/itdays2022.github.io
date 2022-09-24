@@ -461,7 +461,7 @@ export const ITDaysEksternalBandAkustik = [
       "Lomba akan dinilai oleh juri yang berkompeten",
       "Keputusan juri adalah mutlak dan tidak dapat diganggu gugat",
       "Pemenang lomba band terdiri atas Juara 1, Juara 2, dan Juara 3",
-      "Peserta lomba band yang mendapat juara 1 akan tampil pada malam puncak IT Days 2022",
+      "Peserta lomba band yang mendapat juara 1 akan tampil pada malam puncak IT Days 2022, baik secara live ataupun dengan penampilan video dari band pemenang",
       "Dasar penilaian meliputi : ",
     ],
     penilaianMeliputi: ["Performance (penguasaan lagu / musik, interaksi, kostum)", "Skills (kreatifitas dan improvisasi)", "Harmonisasi (musikalitas, arransemen, kekompakan)."],
