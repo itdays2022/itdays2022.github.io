@@ -54,9 +54,6 @@
   transform: translate(-0.5rem, 1rem);
 }
 
-.main-activity .box-eksternal {
-  margin: 10rem 0;
-}
 .main-activity .box-eksternal .title-eksternal::after {
   right: 0;
   transform: translate(0rem, 1rem);

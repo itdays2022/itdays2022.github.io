@@ -41,7 +41,12 @@ import futsal from "./images/logo futsal fix.jpg";
 import shortMovie from "./images/logo short movie fix.jpeg";
 import bandAkustik from "./images/logo band akustik fix.jpg";
 import query100 from "./images/query100 fix.png";
-
+import jogjatv from "./images/LOGO-JOGJA-TV-NEW-pii-new.png";
+import geronimofm from "./images/Salinan GERONIMO FM.jpeg";
+import harianjogja from "./images/Salinan LOGO BARU HARIAN JOGJA 2021.png";
+import masdha from "./images/Salinan Logo Masdha.png";
+import prambos from "./images/Salinan LOGO PRAMBORS.png";
+import radarjogja from "./images/Salinan RADAR JOGJA DIGITAL (1).png";
 import fungamesmain from "./images/MainFunGames.jpg";
 export const Images = [
   {
@@ -580,3 +585,36 @@ export const ITDaysEksternalMobileLegend = [
 ];
 
 export const logo = [{ id: 1, img: imgLogo, title: "logo" }];
+
+export const medpartInti = [
+  {
+    id: 1,
+    img: jogjatv,
+    alt: "Jogja TV",
+  },
+  {
+    id: 2,
+    img: geronimofm,
+    alt: "GERONIMO FM",
+  },
+  {
+    id: 3,
+    img: harianjogja,
+    alt: "Harian Jogja",
+  },
+  {
+    id: 4,
+    img: masdha,
+    alt: "Masdha",
+  },
+  {
+    id: 5,
+    img: prambos,
+    alt: "Prambos",
+  },
+  {
+    id: 6,
+    img: radarjogja,
+    alt: "Radar Jogja",
+  },
+];
