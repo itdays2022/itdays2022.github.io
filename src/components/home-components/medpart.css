@@ -2,12 +2,15 @@
   border: 2px solid #ff00e5;
   border-radius: 2rem;
   box-shadow: 0px 0px 20px rgba(230, 0, 251, 0.7);
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
 .media-partner .custom-col {
   display: grid;
   place-items: center;
+  background: #eaeaea;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .border {
@@ -15,8 +18,3 @@
   border-radius: 2rem;
   box-shadow: 0px 0px 20px rgba(230, 0, 251, 0.7);
 }
-
-/* .media-partner .custom-col img {
-    width: 80%;
-    height: 90
-} */

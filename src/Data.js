@@ -48,6 +48,84 @@ import masdha from "./images/Salinan Logo Masdha.png";
 import prambos from "./images/Salinan LOGO PRAMBORS.png";
 import radarjogja from "./images/Salinan RADAR JOGJA DIGITAL (1).png";
 import fungamesmain from "./images/MainFunGames.jpg";
+
+// // image media partner
+import eventcampus from "../src/images/eventcampus.png";
+import arealomba from "../src/images/arealomba.id.png";
+import eventcenter from "../src/images/eventcenter.id.png";
+import eventkampus from "../src/images/eventkampus_id.png";
+import eventpelajar from "../src/images/eventpelajar.png";
+import infoeventnasional from "../src/images/infoeventnasional.png";
+import infomobiletournament from "../src/images/infomobile.tournament.png";
+import informasievent from "../src/images/informasievent.jpg";
+import jogjapunyaacara from "../src/images/jogjapunyaacara.png";
+import beritalomba from "../src/images/Logo BeritaLomba.png";
+import kompetisimahasiswa from "../src/images/Logo Kompetisi Mahasiswa.png";
+import sejutacerita from "../src/images/sejutacita.jpg";
+
+export const medpart = [
+  {
+    id: 1,
+    img: eventcampus,
+    alt: "Event Campus",
+  },
+  {
+    id: 2,
+    img: arealomba,
+    alt: "Area Lomba",
+  },
+  {
+    id: 3,
+    img: eventcenter,
+    alt: "Event Center",
+  },
+  {
+    id: 4,
+    img: eventkampus,
+    alt: "Event Kampus",
+  },
+  {
+    id: 5,
+    img: eventpelajar,
+    alt: "Event Pelajar",
+  },
+  {
+    id: 6,
+    img: infoeventnasional,
+    alt: "Info Event Nasional",
+  },
+  {
+    id: 7,
+    img: infomobiletournament,
+    alt: "Info Mobile Tournament",
+  },
+  {
+    id: 8,
+    img: informasievent,
+    alt: "Info Event",
+  },
+  {
+    id: 9,
+    img: jogjapunyaacara,
+    alt: "Jogja Punya Acara",
+  },
+  {
+    id: 10,
+    img: beritalomba,
+    alt: "Berita Lomba",
+  },
+  {
+    id: 11,
+    img: kompetisimahasiswa,
+    alt: "Kompetisi Mahasiswa",
+  },
+  {
+    id: 12,
+    img: sejutacerita,
+    alt: "Sejuta Cerita",
+  },
+];
+
 export const Images = [
   {
     id: 1,
