@@ -63,6 +63,35 @@ import beritalomba from "../src/images/Logo BeritaLomba.png";
 import kompetisimahasiswa from "../src/images/Logo Kompetisi Mahasiswa.png";
 import sejutacerita from "../src/images/sejutacita.jpg";
 
+// sponsor
+import kanisius from "./images/logo kanisius-1.png";
+import rotiropi from "./images/Logo_ROTI ROPI_Hi_Res.png";
+import agresiid from "./images/logoagresid.png";
+import orb from "./images/logoorb-1.png";
+
+export const sponsor = [
+  {
+    id: 2,
+    img: rotiropi,
+    alt: "Roti Ropi",
+  },
+  {
+    id: 1,
+    img: kanisius,
+    alt: "Kanisius",
+  },
+  {
+    id: 3,
+    img: agresiid,
+    alt: "Agresi ID",
+  },
+  {
+    id: 4,
+    img: orb,
+    alt: "ORB",
+  },
+];
+
 export const medpart = [
   {
     id: 1,

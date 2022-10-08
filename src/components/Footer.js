@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
+import { sponsor } from "../Data";
 function Footer() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -14,7 +15,7 @@ function Footer() {
         <div className="row text-center">
           {/* <!-- 1 --> */}
 
-          <div className="col-md-4 text-light mt-5 media-social">
+          <div className="col-md-3 text-light mt-5 media-social">
             <h2 className="text-light footer-title">IT DAYS 2022</h2>
             <ul className="list-group list-group-horizontal p-5">
               {/* <!-- instagram --> */}
@@ -44,8 +45,19 @@ function Footer() {
             </ul>
           </div>
 
+          <div className="col-md-3 text-light mt-5 sponsors">
+            <h2 className="text-light footer-title">Sponsor</h2>
+            <div className="row d-flex justify-content-center align-items-center">
+              {sponsor.map((item) => (
+                <div className="col-md-5 col-3 custom-col m-1" key={item.id}>
+                  <img src={item.img} className="img img-item img-fluid" alt={item.alt} />
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* <!-- 2 --> */}
-          <div className="col-md-4 text-light mt-5 quick-links">
+          <div className="col-md-3 text-light mt-5 quick-links">
             <h2 className="footer-title text-md-start ps-md-3">Quick Links</h2>
             <ul className="list-group">
               <li className="list-group-item text-start">
@@ -76,7 +88,7 @@ function Footer() {
             </ul>
           </div>
           {/* <!-- 3 --> */}
-          <div className="col-md-4 text-light mt-5 contact-info ">
+          <div className="col-md-3 text-light mt-5 contact-info ">
             <h2 className="footer-title text-md-start ps-md-3">Contact Info</h2>
             <ul className="list-group">
               {/* <!-- whatsapp --> */}
